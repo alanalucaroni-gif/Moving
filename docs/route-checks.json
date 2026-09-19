@@ -1,0 +1,351 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Moving — Qual é o seu ritmo de hoje?",
+    "bytes": 137624
+  },
+  {
+    "route": "/produtos",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Produtos | Moving",
+    "bytes": 74640
+  },
+  {
+    "route": "/a-moving",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "A Moving | Moving",
+    "bytes": 28658
+  },
+  {
+    "route": "/quem-somos",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Quem somos | Moving",
+    "bytes": 28767
+  },
+  {
+    "route": "/blog",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Conteúdos | Moving",
+    "bytes": 24455
+  },
+  {
+    "route": "/contato",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Contato | Moving",
+    "bytes": 26868
+  },
+  {
+    "route": "/onde-comprar",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Onde comprar | Moving",
+    "bytes": 30260
+  },
+  {
+    "route": "/politicas-de-privacidade",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Política de privacidade | Moving",
+    "bytes": 24413
+  },
+  {
+    "route": "/politicas-de-cookies",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Política de cookies | Moving",
+    "bytes": 23964
+  },
+  {
+    "route": "/como-comprar",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Como comprar | Moving",
+    "bytes": 23504
+  },
+  {
+    "route": "/produtos/hydro-pro-powder-frutas-vermelhas",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO Sachê — Frutas Vermelhas | Moving",
+    "bytes": 41639
+  },
+  {
+    "route": "/produtos/hydro-pro-powder-limao",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO Sachê — Limão | Moving",
+    "bytes": 43083
+  },
+  {
+    "route": "/produtos/hydro-pro-powder-melancia-e-limao",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO Sachê — Melancia e Limão | Moving",
+    "bytes": 39510
+  },
+  {
+    "route": "/produtos/hydro-pro-powder-tangerina",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO Sachê — Tangerina | Moving",
+    "bytes": 41203
+  },
+  {
+    "route": "/produtos/hydro-pro-powder-uva",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO Sachê — Uva | Moving",
+    "bytes": 42162
+  },
+  {
+    "route": "/produtos/hydro-protein-melancia-e-limao",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein — Melancia e Limão | Moving",
+    "bytes": 39545
+  },
+  {
+    "route": "/produtos/hydro-protein-tangerina",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein — Tangerina | Moving",
+    "bytes": 41204
+  },
+  {
+    "route": "/produtos/hydro-protein-uva",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein — Uva | Moving",
+    "bytes": 42156
+  },
+  {
+    "route": "/produtos/hydro-protein-limao",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein — Limão | Moving",
+    "bytes": 43084
+  },
+  {
+    "route": "/produtos/hydro-protein-frutas-vermelhas",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein — Frutas Vermelhas | Moving",
+    "bytes": 41644
+  },
+  {
+    "route": "/produtos/hydro-protein-pro-frutas-vermelhas",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO — Frutas Vermelhas | Moving",
+    "bytes": 41573
+  },
+  {
+    "route": "/produtos/hydro-protein-pro-tangerina",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO — Tangerina | Moving",
+    "bytes": 41137
+  },
+  {
+    "route": "/produtos/hydro-protein-pro-uva",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO — Uva | Moving",
+    "bytes": 41725
+  },
+  {
+    "route": "/produtos/hydro-protein-pro-limao",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO — Limão | Moving",
+    "bytes": 43014
+  },
+  {
+    "route": "/produtos/juice-protein-laranja",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Juice Protein — Laranja | Moving",
+    "bytes": 42339
+  },
+  {
+    "route": "/produtos/juice-protein-maca",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Juice Protein — Maçã | Moving",
+    "bytes": 42197
+  },
+  {
+    "route": "/produtos/juice-protein-uva",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Juice Protein — Uva | Moving",
+    "bytes": 41563
+  },
+  {
+    "route": "/produtos/energy-pro-ice-tea-limao",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Energy Pro — Ice tea + Limão | Moving",
+    "bytes": 42680
+  },
+  {
+    "route": "/produtos/energy-pro-ice-tea-pessego",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Energy Pro — Ice tea + Pêssego | Moving",
+    "bytes": 43613
+  },
+  {
+    "route": "/produtos/energy-pro-pink-lemonade",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Energy Pro — Pink Lemonade | Moving",
+    "bytes": 43371
+  },
+  {
+    "route": "/produtos/energy-pro-tropical",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Energy Pro — Tropical | Moving",
+    "bytes": 43172
+  },
+  {
+    "route": "/produtos/protein-booster-morango-e-acerola",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Protein Booster — Morango e Acerola | Moving",
+    "bytes": 42877
+  },
+  {
+    "route": "/produtos/protein-booster-limao",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Protein Booster — Limão | Moving",
+    "bytes": 42961
+  },
+  {
+    "route": "/produtos/protein-booster-abacaxi-e-hortela",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Protein Booster — Abacaxi e Hortelã | Moving",
+    "bytes": 42897
+  },
+  {
+    "route": "/blog/bebidas-funcionais-o-que-sao-para-que-servem-e-por-que-estao-dominando-o-mercado",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Bebidas funcionais: o que são, para que servem e por que estão dominando o mercado | Moving",
+    "bytes": 69361
+  },
+  {
+    "route": "/blog/o-que-e-alimentacao-saudavel-de-verdade",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "O que é alimentação saudável de verdade? | Moving",
+    "bytes": 64066
+  },
+  {
+    "route": "/blog/quais-sao-os-esportes-simples-e-baratos-para-comecar-a-praticar-hoje",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Quais são os esportes simples e baratos para começar a praticar hoje? | Moving",
+    "bytes": 70070
+  },
+  {
+    "route": "/blog/hydro-protein-pro-sache-proteina-creatina-e-eletrolitos-em-uma-unica-solucao-para-sua-rotina",
+    "status": 200,
+    "h1": 1,
+    "main": true,
+    "title": "Hydro Protein PRO Sachê: proteína, creatina e eletrólitos em uma única solução para sua rotina | Moving",
+    "bytes": 72540
+  },
+  {
+    "route": "/sitemap.xml",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/robots.txt",
+    "status": 200,
+    "expected": 200
+  },
+  {
+    "route": "/isso-nao-existe",
+    "status": 404,
+    "expected": 404
+  },
+  {
+    "route": "/api/newsletter",
+    "status": 400,
+    "expected": 400,
+    "message": "{\"message\":\"Confira o e-mail e o consentimento.\"}"
+  },
+  {
+    "route": "/api/newsletter",
+    "status": 503,
+    "expected": 503,
+    "message": "{\"message\":\"As inscrições estão temporariamente indisponíveis. Acompanhe as novidades nos perfis oficiais da Moving.\"}"
+  },
+  {
+    "route": "/api/contato",
+    "status": 503,
+    "expected": 503,
+    "message": "{\"message\":\"O envio por formulário está temporariamente indisponível. Escreva para sac@movingpro.com.br.\"}"
+  },
+  {
+    "route": "/api/revendedores?cep=123",
+    "status": 400,
+    "expected": 400,
+    "message": "{\"message\":\"Informe um CEP válido com 8 dígitos.\"}"
+  },
+  {
+    "route": "/api/revendedores?cep=01454901",
+    "status": 503,
+    "expected": 503,
+    "message": "{\"message\":\"A consulta por CEP ainda não está disponível. Compre pelos canais online ou consulte a Moving pelo e-mail sac@movingpro.com.br.\"}"
+  }
+]

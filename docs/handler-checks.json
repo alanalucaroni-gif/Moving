@@ -1,0 +1,14 @@
+{
+  "passed": 8,
+  "checks": [
+    "Newsletter confirma apenas com sucesso do serviço",
+    "Newsletter exige consentimento",
+    "Contato confirma sucesso real do transporte simulado",
+    "Contato rejeita entrada inválida",
+    "Falha do provedor não vira sucesso",
+    "Localizador distingue resultado vazio",
+    "Localizador retorna registros e rejeita URL insegura",
+    "Contrato incorreto do localizador resulta em erro"
+  ],
+  "externalRequests": 0
+}

@@ -1,0 +1,157 @@
+/* Direction established from the user's screen recording. */
+.moving-editorial{--ink:#132d56;--paper:#e8efd9;--olive:#42652c;background:var(--paper);color:var(--ink)}
+.moving-editorial .pill{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.moving-editorial .pill:hover{background:var(--paper);color:var(--ink)}
+.moving-editorial .chapter-link{display:inline-flex;align-items:center;gap:20px;min-height:44px;font-size:13px;border-bottom:1px solid currentColor;font-weight:600}
+.liquid-experience{height:280svh;background:#fff;color:#102439}
+.liquid-scene{position:sticky;top:0;height:100svh;overflow:hidden;background:#fff url('/assets/moving/opening/drops.png') center/cover no-repeat}
+.liquid-canvas,.liquid-arrow{position:absolute;inset:0;width:100%;height:100%;display:block}
+.liquid-arrow{z-index:2;pointer-events:none;overflow:visible}
+.liquid-tagline{position:absolute;top:clamp(106px,13vh,145px);left:20px;right:20px;z-index:2;margin:0;text-align:center;color:#254055;font-size:clamp(10px,1.1vw,16px);font-weight:800;letter-spacing:.35em;pointer-events:none}
+.liquid-callout{position:absolute;z-index:3;width:220px;min-height:44px;padding:3px 0;border:0;background:none;color:#61bb0a;font-size:clamp(20px,2vw,32px);font-weight:900;letter-spacing:.03em;white-space:nowrap;cursor:pointer}
+.liquid-tab{position:absolute;z-index:4;padding:0;background:transparent;border:0;border-radius:45%;cursor:pointer;touch-action:manipulation}
+.liquid-controls{position:absolute;z-index:5;bottom:22px;left:16px;right:16px;text-align:center;color:#244058;font-size:12px}
+.liquid-controls p{min-height:18px;margin:0 0 12px;line-height:1.5}.liquid-controls button,.liquid-controls a{font:inherit;color:#17334a;border:1px solid #17334a33;border-radius:20px;background:#ffffffe6;padding:9px 15px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px;margin:3px}.liquid-controls button:disabled{opacity:.4;cursor:default}
+.liquid-next{min-height:100svh;background:linear-gradient(#91d640,#68b52e);color:#10270c;display:grid;align-content:center;justify-items:center;text-align:center;padding:80px 24px}.liquid-next h2{font-size:clamp(48px,10vw,140px);line-height:.9;letter-spacing:-.025em;margin:25px 0}.liquid-next small{letter-spacing:.3em}.liquid-next>div{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}.liquid-next span{border:1px solid #14331155;border-radius:30px;padding:12px 18px}.liquid-next p{line-height:1.6}
+.liquid-scene :focus-visible{outline:3px solid #61bb0a;outline-offset:6px}
+.cinematic-opening{height:100svh;min-height:540px;background:#0b1733;isolation:isolate;overflow:hidden;color:#f4f4e8;scroll-margin-top:0}
+.opening-film{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0}
+.opening-caption{position:absolute;left:5.5%;bottom:15%;font-size:13px;z-index:2;text-shadow:0 1px 12px #07142b}
+.opening-caption p{font-size:13px;line-height:1.5}
+.opening-caption button{display:flex;align-items:center;gap:28px;min-height:44px;margin-top:12px;font-size:12px;border-bottom:1px solid #ffffff88}
+.opening-controls{position:absolute;bottom:30px;right:4%;display:flex;gap:20px;z-index:2}
+.opening-controls button{display:flex;align-items:center;gap:9px;min-height:44px;font-size:12px;text-shadow:0 1px 12px #07142b}
+.opening-liquid{position:absolute;inset:0;background:#f4a633;transform:scaleY(0);transform-origin:bottom;z-index:4;border-radius:18% 18% 0 0}
+.rhythm-chapters{background:#f4a633;scroll-margin-top:0;color:var(--ink)}
+.rhythm-chapter{height:100svh;min-height:750px;position:relative;overflow:hidden;isolation:isolate}
+.rhythm-chapters.chapters-ready{height:700svh}
+.chapters-ready .chapters-stage{position:sticky;top:0;height:100svh;overflow:hidden}
+.chapters-ready .rhythm-chapter{position:absolute;inset:0;min-height:0;height:100%}
+.chapter-heading{position:absolute;left:5.5%;top:18%;z-index:3;width:48%;line-height:.92;color:#12294b}
+.chapter-heading>span{display:block}
+.chapter-heading>span:first-child{font-size:clamp(30px,3.7vw,70px);margin-bottom:5px}
+.chapter-heading>span:last-child{font-size:clamp(70px,8.7vw,168px);letter-spacing:-.005em}
+.chapter-left .chapter-heading{left:58%;width:37%}
+.chapter-left .chapter-heading>span:last-child{font-size:clamp(82px,10vw,180px)}
+.chapter-art{position:absolute;left:43%;top:8%;width:52%;height:84%;z-index:2;pointer-events:none}
+.chapter-left .chapter-art{left:4%}
+.chapter-packshot{position:absolute;left:50%;top:8%;height:80%;max-width:49%;translate:-50% 0;filter:drop-shadow(16px 22px 12px #18301125);transform:rotate(-7deg);z-index:2}
+.chapter-art:has(img[src*='hydro-pro-powder']) .chapter-packshot{height:72%;max-width:55%;top:14%}
+.chapter-art:has(img[src*='energy-pro']) .chapter-packshot{height:60%;top:22%;max-width:42%}
+.chapter-art:has(img[src*='protein-booster']) .chapter-packshot{height:63%;top:21%;max-width:42%}
+.chapter-copy{position:absolute;bottom:14%;left:5.5%;width:25%;max-width:365px;z-index:4}
+.chapter-left .chapter-copy{left:59%;width:28%}
+.chapter-copy h3{font-size:16px;font-weight:700;line-height:1.3;margin-bottom:13px}
+.chapter-copy>p{font-size:14px;line-height:1.6;max-width:330px;margin-bottom:15px}
+.chapter-facts{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:4px}
+.chapter-facts span{padding:4px 9px;border:1px solid #142c5666;border-radius:20px;font-size:12px;line-height:1.35}
+.chapter-volume{position:absolute;bottom:32px;right:4%;font-size:12px;display:flex;gap:12px;align-items:center}
+.chapter-pagination{position:absolute;z-index:15;bottom:18px;left:50%;transform:translateX(-50%);display:none;align-items:center;gap:0}
+.chapters-ready .chapter-pagination{display:flex}
+.chapter-pagination button{width:44px;height:44px;display:grid;place-items:center}
+.chapter-pagination span{width:5px;height:5px;border:1px solid #142c5677;border-radius:100%;transition:background .3s,transform .3s}
+.chapter-pagination [aria-current=step] span{background:var(--ink);transform:scale(1.5);border-color:var(--ink)}
+.chapter-next{position:absolute;bottom:19px;left:4%;z-index:15;min-height:44px;font-size:12px;display:flex;align-items:center;gap:7px}
+.flavor-fruit{display:block;position:absolute;aspect-ratio:1;width:clamp(85px,10vw,180px);background-image:url('/assets/moving/flavors/fruit-sprite.webp');background-repeat:no-repeat;background-size:300% 200%;pointer-events:none;z-index:3;filter:drop-shadow(6px 9px 7px #18301118)}
+.fruit-cell-0{background-position:0 0}.fruit-cell-1{background-position:50% 0}.fruit-cell-2{background-position:100% 0}.fruit-cell-3{background-position:0 100%}.fruit-cell-4{background-position:50% 100%}.fruit-cell-5{background-position:100% 100%}
+.fruit-one{left:12%;top:14%;transform:rotate(-24deg);z-index:1}
+.fruit-two{right:6%;bottom:22%;width:clamp(80px,9vw,150px);transform:rotate(20deg)}
+.fruit-three{left:20%;bottom:10%;width:clamp(70px,7vw,120px);transform:rotate(-10deg)}
+.flow-manifesto{min-height:650px;display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;padding:100px 5.5%;gap:7%;background:var(--paper);overflow:hidden}
+.flow-manifesto .section-label{font-size:12px;letter-spacing:.08em;margin-bottom:24px}
+.flow-manifesto-title{font-size:clamp(70px,7.1vw,128px);line-height:.88;margin-bottom:26px}
+.flow-manifesto-title span{color:var(--olive)}
+.flow-manifesto-copy>p{font-size:14px;line-height:1.5}
+.manifesto-prints{height:480px;position:relative}
+.manifesto-prints figure{position:absolute;width:43%;height:330px;box-shadow:0 12px 20px #12351a18;overflow:hidden}
+.manifesto-prints img{width:100%;height:100%;object-fit:cover}
+.manifesto-print-0{left:0;top:26%;transform:rotate(-10deg);z-index:1}
+.manifesto-print-1{left:25%;top:0;transform:rotate(5deg);z-index:2}
+.manifesto-print-2{right:0;top:32%;transform:rotate(12deg);z-index:3}
+.rhythm-studio{padding:25px 5.5% 90px;overflow:hidden;background:var(--paper);color:var(--ink);scroll-margin-top:90px}
+.studio-anchor{position:absolute;top:0;scroll-margin-top:100px}
+.studio-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:45px}
+.studio-heading h2{font-size:clamp(76px,8.8vw,158px);line-height:.95;color:var(--olive)}
+.studio-heading p{font-size:14px;line-height:1.6}
+.studio-family-tabs[data-slot=tabs-list]{width:100%;display:grid;grid-template-columns:repeat(6,1fr);background:transparent;padding:0;gap:0;height:auto;border-radius:0;border-bottom:1px solid #23385222}
+.studio-family-tabs [data-slot=tabs-trigger]{height:57px;padding:10px 6px;border:0;border-bottom:2px solid transparent;border-radius:0;background:transparent!important;box-shadow:none!important;color:var(--ink);font-size:12px;white-space:normal;line-height:1.3;text-align:center}
+.studio-family-tabs [data-state=active]{border-bottom-color:var(--ink);font-weight:700}
+.studio-content{display:grid;grid-template-columns:1fr 1fr;gap:7%;padding-top:32px;min-height:660px;align-items:center}
+.studio-art{position:relative;height:590px;touch-action:pan-y}
+.studio-orbit{position:absolute;left:9%;top:12%;width:82%;height:76%;border-radius:50%;opacity:.32!important}
+.studio-flavor-word{position:absolute;top:30%;left:0;right:0;text-align:center;font-size:clamp(70px,8.5vw,155px);line-height:.92;color:var(--olive);opacity:.23;z-index:1;overflow-wrap:anywhere;pointer-events:none}
+.studio-current,.studio-outgoing{position:absolute;left:50%;translate:-50% 0;top:5%;height:81%;max-width:50%;transform:rotate(-7deg);filter:drop-shadow(14px 20px 9px #12351720);z-index:3;pointer-events:none}
+.studio-outgoing{opacity:0}
+.studio-previous-wrap{position:absolute;inset:0;pointer-events:none}
+.studio-current[src*='hydro-pro-powder'],.studio-outgoing[src*='hydro-pro-powder']{height:69%;top:12%;max-width:58%}
+.studio-current[src*='energy-pro']{height:61%;top:19%;max-width:45%}
+.studio-current[src*='protein-booster']{height:66%;top:17%;max-width:44%}
+.studio-fruit-one{left:5%;top:13%;width:clamp(115px,14vw,225px);z-index:2}
+.studio-fruit-two{right:0;bottom:15%;width:clamp(120px,14vw,220px);z-index:4}
+.studio-prev,.studio-next{position:absolute;bottom:5%;border:0;background:#ffffff55;z-index:5}
+.studio-prev{left:9%}.studio-next{right:9%}
+.studio-amount{position:absolute;bottom:7%;left:50%;transform:translateX(-50%);font-size:12px}
+.studio-copy{max-width:460px;padding:15px 0 30px;position:relative;z-index:5}
+.studio-copy-main{min-height:340px}
+.studio-rhythm{font-size:13px;margin-bottom:14px}
+.studio-copy h3{font-size:clamp(50px,4.9vw,86px);line-height:.97;max-width:420px;margin-bottom:18px}
+.studio-copy-main>p:not(.studio-rhythm){font-size:14px;line-height:1.6;max-width:385px}
+.studio-copy ul{list-style:none;padding:0;margin:18px 0 24px}
+.studio-copy li{font-size:13px;padding:3px 0}
+.studio-copy li:before{content:'✓';margin-right:11px;color:var(--olive)}
+.studio-flavors{border:0;margin:15px 0 25px;padding:0;min-height:100px}
+.studio-flavors legend{font-size:13px;margin-bottom:12px}
+.studio-flavors>div{display:flex;gap:9px;flex-wrap:wrap}
+.studio-flavors button{display:flex;flex-direction:column;align-items:center;gap:7px;width:62px;min-height:70px;padding:4px 0;color:var(--ink)}
+.studio-flavors button>span{width:26px;height:26px;border-radius:50%;outline:1px solid #152e5833;outline-offset:3px;transition:transform .25s,outline-color .25s}
+.studio-flavors [aria-pressed=true]>span{outline:2px solid var(--ink);transform:scale(1.07)}
+.studio-flavors small{font-size:11px;line-height:1.25;text-align:center;max-width:66px}
+.studio-actions{display:flex;align-items:center;gap:25px;min-height:52px}
+.studio-actions .pill{min-width:210px;justify-content:space-between}
+.moving-editorial .catalog{padding-top:65px;border-top:1px solid #142c5622}
+.moving-editorial .catalog .section-heading h2{font-size:clamp(62px,7vw,110px)}
+.moving-editorial .about-preview{background:#dce7c8}
+.moving-editorial .about-columns h2 span{color:var(--olive)}
+.moving-editorial .store-section{background:#efa444}
+@media(min-width:1600px){.chapter-copy{font-size:16px}.chapter-copy>p{font-size:16px}.chapter-copy h3{font-size:18px}.studio-content{gap:9%}.studio-copy-main>p:not(.studio-rhythm){font-size:16px}.studio-copy li{font-size:14px}}
+@media(max-width:1050px){
+ .chapter-heading{top:20%}.chapter-heading>span:last-child{font-size:9vw}.chapter-copy{width:33%;bottom:13%}.chapter-left .chapter-copy{width:33%;left:59%}
+ .chapter-art{left:41%;width:58%}.chapter-left .chapter-art{left:0}
+ .flow-manifesto{gap:4%;padding:90px 5%}.manifesto-prints{height:410px}.manifesto-prints figure{height:275px;width:48%}.manifesto-print-1{left:22%}
+ .studio-content{gap:4%;min-height:650px}.studio-art{height:530px}.studio-copy h3{font-size:57px}.studio-copy-main{min-height:335px}.studio-actions{gap:18px}.studio-actions .pill{min-width:0;padding:13px 17px;gap:25px;font-size:13px}
+}
+@media(max-width:700px){
+ .liquid-tagline{top:90px;letter-spacing:.18em}.liquid-callout{width:180px;font-size:21px}.liquid-controls{bottom:16px;font-size:11px}.liquid-next h2{font-size:clamp(58px,18vw,92px)}
+ .cinematic-opening{height:100svh;min-height:540px}.opening-film{object-fit:cover}.opening-caption{left:22px;bottom:18%;max-width:170px}.opening-caption p{font-size:12px}.opening-caption button{font-size:12px;gap:14px}.opening-controls{right:22px;bottom:24px;gap:22px}
+ .rhythm-chapter{height:850px;min-height:0}.rhythm-chapters.chapters-ready{height:720svh}
+ .chapter-heading,.chapter-left .chapter-heading{left:7%;top:12%;width:86%}
+ .chapter-heading>span:first-child{font-size:clamp(24px,3.4svh,34px)}
+ .chapter-heading>span:last-child,.chapter-left .chapter-heading>span:last-child{font-size:clamp(46px,12.4vw,74px)}
+ .chapter-art,.chapter-left .chapter-art{left:15%;width:76%;height:44%;top:23%}
+ .chapter-packshot{height:88%;top:1%;max-width:45%}
+ .chapter-art:has(img[src*='hydro-pro-powder']) .chapter-packshot{height:80%;top:5%;max-width:56%}
+ .chapter-art:has(img[src*='energy-pro']) .chapter-packshot{height:69%;top:9%;max-width:40%}
+ .chapter-art:has(img[src*='protein-booster']) .chapter-packshot{height:75%;top:9%;max-width:44%}
+ .chapter-copy,.chapter-left .chapter-copy{left:7%;bottom:10%;width:86%;max-width:none}
+ .chapter-copy h3{font-size:14px;margin-bottom:8px}.chapter-copy>p{font-size:13px;line-height:1.45;margin-bottom:9px;max-width:100%}
+ .chapter-facts{gap:5px;margin-bottom:0}.chapter-facts span{font-size:11px;padding:3px 7px}.chapter-copy .chapter-link{font-size:12px;min-height:40px}
+ .chapter-volume{right:22px;bottom:24px;font-size:11px;gap:5px}.chapter-volume svg{width:14px}.chapter-next{font-size:11px;left:22px;bottom:12px}.chapter-pagination{bottom:10px}.chapter-pagination button{width:24px}.chapter-pagination span{width:4px;height:4px}
+ .flavor-fruit{width:95px}.fruit-one{left:0;top:11%}.fruit-two{right:0;bottom:28%;width:90px}.fruit-three{left:10%;bottom:7%;width:75px}
+ .flow-manifesto{display:block;padding:75px 24px 60px;min-height:0}.flow-manifesto-title{font-size:81px;line-height:.91}.flow-manifesto .section-label{font-size:11px}.flow-manifesto-copy>p{font-size:13px}.manifesto-prints{height:330px;margin-top:30px}.manifesto-prints figure{height:235px;width:43%}.manifesto-print-0{top:24%}.manifesto-print-1{top:5%;left:27%}.manifesto-print-2{top:31%}
+ .rhythm-studio{padding:35px 22px 65px}.studio-heading{display:block;margin-bottom:25px}.studio-heading h2{font-size:clamp(67px,17vw,105px);margin-bottom:18px}.studio-heading p{font-size:13px}
+ .studio-family-tabs[data-slot=tabs-list]{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;justify-content:flex-start;scrollbar-width:thin}.studio-family-tabs [data-slot=tabs-trigger]{min-width:130px;flex:0 0 130px;scroll-snap-align:start;min-height:60px;font-size:12px}
+ .studio-content{display:block;padding-top:20px}.studio-art{height:440px;max-width:440px;margin:0 auto}.studio-orbit{width:80%;left:10%;height:76%}.studio-flavor-word{font-size:22vw;top:31%}
+ .studio-current,.studio-outgoing{height:79%;max-width:47%;top:5%}.studio-current[src*='hydro-pro-powder'],.studio-outgoing[src*='hydro-pro-powder']{height:70%;max-width:60%;top:9%}
+ .studio-fruit-one{width:130px;top:14%;left:1%}.studio-fruit-two{width:135px;bottom:16%;right:0}.studio-amount{bottom:7%}.studio-prev,.studio-next{bottom:4%}
+ .studio-copy{padding:25px 5px 0;max-width:none}.studio-copy h3{font-size:59px;max-width:100%}.studio-rhythm{font-size:13px}.studio-copy-main{min-height:300px}.studio-copy-main>p:not(.studio-rhythm){font-size:14px;max-width:100%}.studio-copy li{font-size:13px}
+ .studio-flavors{margin:15px 0 20px;min-height:110px}.studio-flavors>div{gap:5px}.studio-flavors button{width:59px}.studio-flavors small{font-size:11px}.studio-actions .pill{min-height:48px;padding:13px 20px}.studio-actions .chapter-link{font-size:13px}
+}
+@media(max-width:700px) and (max-height:730px){.chapters-ready .chapter-heading{top:14%}.chapters-ready .chapter-art{height:37%;top:26%}.chapters-ready .chapter-copy{bottom:10%}.chapters-ready .chapter-copy>p{font-size:12px;line-height:1.4}.chapters-ready .chapter-copy h3{font-size:13px;margin-bottom:5px}.chapters-ready .chapter-facts span{font-size:10px}.chapters-ready .chapter-heading>span:last-child{font-size:11.5vw}}
+@media(prefers-reduced-motion:reduce){.opening-liquid{display:none}.studio-outgoing{display:none}.rhythm-chapters.chapters-ready{height:auto}.chapters-ready .chapters-stage{position:relative;height:auto}.chapters-ready .rhythm-chapter{position:relative;clip-path:none!important;height:850px}.chapter-pagination{display:none!important}}
+@media(prefers-reduced-motion:reduce){.liquid-experience{height:170svh}}
+
+@media(max-width:700px){.chapter-copy,.chapter-left .chapter-copy{bottom:15%}.chapter-pagination button{width:44px;height:44px}.chapter-pagination{bottom:5px}.chapter-next{bottom:48px}.chapter-volume{bottom:62px}}
+
+/* Restore the original full navigation and six-line product preview. */
+.site-header.home-header{background:#f7f7f2;color:#132d56;box-shadow:0 1px 0 #132d561a}
+.home-header .mega-menu{color:#132d56}
